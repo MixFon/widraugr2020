@@ -1,0 +1,6 @@
+framework module widraugr2020 {
+  umbrella header "widraugr2020-umbrella.h"
+
+  export *
+  module * { export * }
+}

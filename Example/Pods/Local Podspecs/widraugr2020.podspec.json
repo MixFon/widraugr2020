@@ -1,0 +1,22 @@
+{
+  "name": "widraugr2020",
+  "version": "0.1.0",
+  "summary": "A short description of widraugr2020.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/MixFon/widraugr2020",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "MixFon": "mixfon@rambler.ru"
+  },
+  "source": {
+    "git": "https://github.com/MixFon/widraugr2020.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "widraugr2020/Classes/**/*"
+}

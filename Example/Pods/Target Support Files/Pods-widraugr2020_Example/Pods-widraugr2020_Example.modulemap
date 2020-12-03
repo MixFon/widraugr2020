@@ -1,0 +1,6 @@
+framework module Pods_widraugr2020_Example {
+  umbrella header "Pods-widraugr2020_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

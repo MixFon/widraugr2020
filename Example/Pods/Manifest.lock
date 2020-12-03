@@ -1,0 +1,16 @@
+PODS:
+  - widraugr2020 (0.1.0)
+
+DEPENDENCIES:
+  - widraugr2020 (from `../`)
+
+EXTERNAL SOURCES:
+  widraugr2020:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  widraugr2020: 2f5a42a16582c64e20dd1983d6483e8a273d0dcc
+
+PODFILE CHECKSUM: 6333bd3389e27debc171169d978578ddd05629b8
+
+COCOAPODS: 1.10.0
