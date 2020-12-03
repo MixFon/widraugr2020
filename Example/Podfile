@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'widraugr2020_Example' do
+  pod 'widraugr2020', :path => '../'
+
+  target 'widraugr2020_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
