@@ -33,6 +33,8 @@ Pod::Spec.new do |s|
   s.source_files = 'Classes/**/*'
   s.resource = 'Assets/*'
   
+  s.swift_versions = '4.0'
+  
   # s.resource_bundles = {
   #   'widraugr2020' => ['widraugr2020/Assets/*.png']
   # }
