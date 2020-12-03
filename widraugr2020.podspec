@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-  This pod was created for educational purposes during the passage of pool 21.
+  This pod was created for educational purposes during the passage of pool 21.This pod was created for educational purposes during the passage of pool 21.
                        DESC
 
   s.homepage         = 'https://github.com/MixFon/widraugr2020'
