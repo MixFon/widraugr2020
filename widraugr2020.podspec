@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'widraugr2020'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of widraugr2020. Add article and class'
+  s.summary          = 'Add article and class!!!!'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
