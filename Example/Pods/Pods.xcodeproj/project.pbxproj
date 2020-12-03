@@ -9,7 +9,8 @@
 /* Begin PBXBuildFile section */
 		04CEF9BC3BB5D5C81717FDFA85B0AA07 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		279FCFAF5DC5BE7257CB68BDC092CA2B /* Pods-widraugr2020_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D1490E2FEA5B0B4D25318F8BC12E82D5 /* Pods-widraugr2020_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		364413D5CE6761CC19776322E0988475 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E346F4A268668983957E86AEB974E3 /* ReplaceMe.swift */; };
+		296AFE1F2579278E007CCA26 /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296AFE1E2579278E007CCA26 /* Article.swift */; };
+		296AFE262579296A007CCA26 /* article.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 296AFE242579296A007CCA26 /* article.xcdatamodeld */; };
 		5087B3D758AFC14DCC8CD954512688EE /* widraugr2020-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C19A514A8AD224A98B592F0386905DB4 /* widraugr2020-dummy.m */; };
 		7B8E1DDABE9EED27750AD06C063CB205 /* Pods-widraugr2020_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8FA25AB09230341B529C8DAF80643558 /* Pods-widraugr2020_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		861B5590CEDBD93389F66BB848AEE201 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
@@ -37,14 +38,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0228A8B952F14498BC4EACD0ECADA471 /* Pods_widraugr2020_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_widraugr2020_Example.framework; path = "Pods-widraugr2020_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		079C018BBB38CBA07162BA77990D5845 /* widraugr2020.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = widraugr2020.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		0B6FCAA23FA60C26A02BE2B8273EC295 /* widraugr2020.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = widraugr2020.framework; path = widraugr2020.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0228A8B952F14498BC4EACD0ECADA471 /* Pods_widraugr2020_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_widraugr2020_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		079C018BBB38CBA07162BA77990D5845 /* widraugr2020.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = widraugr2020.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		0B6FCAA23FA60C26A02BE2B8273EC295 /* widraugr2020.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = widraugr2020.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1247B1ABA114187697351ABFA632A4C9 /* widraugr2020-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "widraugr2020-Info.plist"; sourceTree = "<group>"; };
 		18513559236541CBD3B7198E142DF5ED /* Pods-widraugr2020_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-widraugr2020_Tests-Info.plist"; sourceTree = "<group>"; };
 		1D825F017DFBA2DE0AB4BFE3C0AE3D07 /* Pods-widraugr2020_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-widraugr2020_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		296AFE1E2579278E007CCA26 /* Article.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
+		296AFE252579296A007CCA26 /* article.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = article.xcdatamodel; sourceTree = "<group>"; };
 		343AB2688B30741A0BA96B3275E7A0EF /* Pods-widraugr2020_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-widraugr2020_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		35E346F4A268668983957E86AEB974E3 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = widraugr2020/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		3FCFD736CE5144FE02F07F045BA89AB3 /* Pods-widraugr2020_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-widraugr2020_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		4AD991C8A73AE6645CB8411C281759DB /* widraugr2020-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "widraugr2020-umbrella.h"; sourceTree = "<group>"; };
 		5F4A2B02F294CBDE4F32D5D6754F4A39 /* Pods-widraugr2020_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-widraugr2020_Tests.modulemap"; sourceTree = "<group>"; };
@@ -56,10 +58,10 @@
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		7B149B37968A0784EB6D5A906247F105 /* Pods-widraugr2020_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-widraugr2020_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		81C720FC17F66455C60AC231A0D30935 /* Pods-widraugr2020_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-widraugr2020_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		8CE7A59EC5C9BA0D28838FAE85C5C8CA /* Pods_widraugr2020_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_widraugr2020_Tests.framework; path = "Pods-widraugr2020_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CE7A59EC5C9BA0D28838FAE85C5C8CA /* Pods_widraugr2020_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_widraugr2020_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FA25AB09230341B529C8DAF80643558 /* Pods-widraugr2020_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-widraugr2020_Example-umbrella.h"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		B90F98C35F8A10D45A57D5908BA8A80E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B90F98C35F8A10D45A57D5908BA8A80E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		BF6230BEEC641E927951CEBC849E1F77 /* Pods-widraugr2020_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-widraugr2020_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		C171B62087E8F7A9015F5F756ABAEF29 /* widraugr2020.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = widraugr2020.release.xcconfig; sourceTree = "<group>"; };
 		C19A514A8AD224A98B592F0386905DB4 /* widraugr2020-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "widraugr2020-dummy.m"; sourceTree = "<group>"; };
@@ -67,7 +69,7 @@
 		C296E9B24E4E22C38C4A718AB860E716 /* Pods-widraugr2020_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-widraugr2020_Example-frameworks.sh"; sourceTree = "<group>"; };
 		C85FDDFEF0C4D0DEC95431164D65B10C /* Pods-widraugr2020_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-widraugr2020_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		D1490E2FEA5B0B4D25318F8BC12E82D5 /* Pods-widraugr2020_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-widraugr2020_Tests-umbrella.h"; sourceTree = "<group>"; };
-		D48F7F3213A81041ADB0C8DD61A0AB2E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		D48F7F3213A81041ADB0C8DD61A0AB2E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		D771BC9823E448BB98358B3B34C0C33F /* widraugr2020-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "widraugr2020-prefix.pch"; sourceTree = "<group>"; };
 		DA28EE38936423EC4B27F7A567057CAA /* Pods-widraugr2020_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-widraugr2020_Example-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -100,6 +102,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		296AFE1A2579270D007CCA26 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				296AFE1E2579278E007CCA26 /* Article.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		296AFE232579289C007CCA26 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				296AFE242579296A007CCA26 /* article.xcdatamodeld */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -163,7 +181,8 @@
 		CBF5E64933C2AFC885F6E1D1FC1B1E1D /* widraugr2020 */ = {
 			isa = PBXGroup;
 			children = (
-				35E346F4A268668983957E86AEB974E3 /* ReplaceMe.swift */,
+				296AFE232579289C007CCA26 /* Assets */,
+				296AFE1A2579270D007CCA26 /* Classes */,
 				E872EF703646EBC85878F7C7DD49C3CA /* Pod */,
 				F93F56530BC7FAB7BB7EF83A8697A266 /* Support Files */,
 			);
@@ -317,6 +336,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
 				LastUpgradeCheck = 1100;
+				TargetAttributes = {
+					C5E6567E0838261D09DF2E1655C06A17 = {
+						LastSwiftMigration = 1220;
+					};
+				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -383,8 +407,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				364413D5CE6761CC19776322E0988475 /* ReplaceMe.swift in Sources */,
+				296AFE1F2579278E007CCA26 /* Article.swift in Sources */,
 				5087B3D758AFC14DCC8CD954512688EE /* widraugr2020-dummy.m in Sources */,
+				296AFE262579296A007CCA26 /* article.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -410,6 +435,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C1EE68F1E7E81E9599BAC7D9BE8EE081 /* widraugr2020.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -429,6 +455,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -491,8 +518,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -502,6 +528,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C171B62087E8F7A9015F5F756ABAEF29 /* widraugr2020.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -765,6 +792,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		296AFE242579296A007CCA26 /* article.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				296AFE252579296A007CCA26 /* article.xcdatamodel */,
+			);
+			currentVersion = 296AFE252579296A007CCA26 /* article.xcdatamodel */;
+			path = article.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 }

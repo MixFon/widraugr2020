@@ -28,9 +28,10 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/MixFon/widraugr2020.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '9.0'
+  s.ios.deployment_target = '13.0'
 
   s.source_files = 'widraugr2020/Classes/**/*'
+  s.resource = 'widraugr2020/Assets/*'
   
   # s.resource_bundles = {
   #   'widraugr2020' => ['widraugr2020/Assets/*.png']
