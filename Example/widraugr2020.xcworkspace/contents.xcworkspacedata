@@ -2,6 +2,12 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:../Classes/Article+CoreDataClass.swift">
+   </FileRef>
+   <FileRef
+      location = "group:../Classes/Article+CoreDataProperties.swift">
+   </FileRef>
+   <FileRef
       location = "group:widraugr2020.xcodeproj">
    </FileRef>
    <FileRef

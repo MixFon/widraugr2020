@@ -14,10 +14,29 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        //let temp = Article()
         // Do any additional setup after loading the view, typically from a nib.
     }
 
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        let articleManager = ArticleManager()
+        let articles = articleManager.getAllArticles()
+        if (articles.isEmpty) {
+            print("article is empty")
+        }else {
+            for article in articles {
+                print(article)
+            }
+        }
+        //let newArticle = articleManager.newArticle()
+        //print(newArticle)
+        do {
+            try articleManager.managedObjectContext.save()
+        } catch let error as NSError {
+            print(error.localizedDescription)
+        }
+
+    }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
