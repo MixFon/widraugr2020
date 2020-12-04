@@ -7,11 +7,14 @@
 //
 
 import UIKit
+import CoreData
+import widraugr2020
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        //let temp = Article()
         // Do any additional setup after loading the view, typically from a nib.
     }
 
