@@ -58,8 +58,8 @@ public class ArticleManager {
         managedObjectContext.persistentStoreCoordinator = presistenStoreCoordinator
     }
     
-        public func getAllArticles() -> [Article] {
-            //let context = getContext()
+    public func getAllArticles() -> [Article] {
+            
             // Запрос на получение всех данных
             let fetchRequest: NSFetchRequest<Article> = Article.fetchRequest()
             var objects: [Article] = []
@@ -71,6 +71,41 @@ public class ArticleManager {
             return objects
         }
     
+    public func getArticles(withLang lang: String) -> [Article] {
+        var articles: [Article] = []
+        let allAtricle = self.getAllArticles()
+        for article in allAtricle {
+            if article.language == lang {
+                articles.append(article)
+            }
+        }
+        return articles
+    }
+    
+    public func getArticles(containString str: String) -> [Article] {
+        var articles: [Article] = []
+        let allAtricle = self.getAllArticles()
+        for article in allAtricle {
+            if let content = article.content {
+                if content.contains(str) {
+                    articles.append(article)
+                }
+            }
+        }
+        return articles
+    }
+    
+    public func removeArticle(article: Article) {
+        managedObjectContext.delete(article)
+    }
+    
+    public func save(article: Article) {
+        do {
+            try managedObjectContext.save()
+        } catch let error as NSError {
+            print(error.localizedDescription)
+        }
+    }
 //    public func getContext() -> NSManagedObjectContext{
 //        let persistentContainer: NSPersistentContainer = {
 //              let container = NSPersistentContainer(name: "article")

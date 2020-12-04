@@ -12,7 +12,6 @@
 		296AFE262579296A007CCA26 /* article.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 296AFE242579296A007CCA26 /* article.xcdatamodeld */; };
 		296AFE3B25794A70007CCA26 /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296AFE3925794A70007CCA26 /* Article.swift */; };
 		296AFE5725794D42007CCA26 /* ArticleManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296AFE5625794D42007CCA26 /* ArticleManager.swift */; };
-		296AFE7F257A14A5007CCA26 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296AFE7E257A14A5007CCA26 /* File.swift */; };
 		5087B3D758AFC14DCC8CD954512688EE /* widraugr2020-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C19A514A8AD224A98B592F0386905DB4 /* widraugr2020-dummy.m */; };
 		7B8E1DDABE9EED27750AD06C063CB205 /* Pods-widraugr2020_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8FA25AB09230341B529C8DAF80643558 /* Pods-widraugr2020_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		861B5590CEDBD93389F66BB848AEE201 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
@@ -49,7 +48,6 @@
 		296AFE252579296A007CCA26 /* article.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = article.xcdatamodel; sourceTree = "<group>"; };
 		296AFE3925794A70007CCA26 /* Article.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Article.swift; path = ../Example/Article.swift; sourceTree = "<group>"; };
 		296AFE5625794D42007CCA26 /* ArticleManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleManager.swift; sourceTree = "<group>"; usesTabs = 0; };
-		296AFE7E257A14A5007CCA26 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = File.swift; path = ../Example/File.swift; sourceTree = "<group>"; };
 		343AB2688B30741A0BA96B3275E7A0EF /* Pods-widraugr2020_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-widraugr2020_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		3FCFD736CE5144FE02F07F045BA89AB3 /* Pods-widraugr2020_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-widraugr2020_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		4AD991C8A73AE6645CB8411C281759DB /* widraugr2020-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "widraugr2020-umbrella.h"; sourceTree = "<group>"; };
@@ -111,7 +109,6 @@
 			children = (
 				296AFE3925794A70007CCA26 /* Article.swift */,
 				296AFE5625794D42007CCA26 /* ArticleManager.swift */,
-				296AFE7E257A14A5007CCA26 /* File.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -413,7 +410,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				296AFE7F257A14A5007CCA26 /* File.swift in Sources */,
 				5087B3D758AFC14DCC8CD954512688EE /* widraugr2020-dummy.m in Sources */,
 				296AFE3B25794A70007CCA26 /* Article.swift in Sources */,
 				296AFE5725794D42007CCA26 /* ArticleManager.swift in Sources */,
